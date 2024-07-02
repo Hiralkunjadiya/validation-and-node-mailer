@@ -1,0 +1,1 @@
+module.exports.series_Controller = require("./series.controller")
