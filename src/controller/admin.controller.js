@@ -23,9 +23,9 @@ const create_admin = async(req,res) => {
 
         const mail_sent = await transport.sendMail({
             from:"hiralkunjadiya9@gmail.com",
-            to:"vrutigorasiya1006@gmail.com",
+            to:"vaghanipriya23@gmail.com",
             subject:"On this subject: DEMO MAIL",
-            text:"heyyy vruti it's me hiral"
+            text:"heyyy priya it's me hiral"
         })
 
         if (!mail_sent) {
